@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="sito di Antonio Sceusa, architetto di Palermo con esperienza pluriventennale nel settore, specializzato in edifici pubblici e privati ">
+    <meta name="keywords"
+        content="Architetto, Palermo, provincia di Palermo, Sicilia, tombe, case, scale, architettura">
+    <title>Architetto | Antonio Sceusa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="icon" href="C:\Users\damis\Desktop\icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header clearfix">
+        <a href="index.html" class="logo">Logo</a>
+        <a href="" class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <ul class="header__menu animate">
+            <li class="header__menu__item"><a href="index.html">Home</a></li>
+            <li class="header__menu__item"><a href="progetti.html">Progetti</a></li>
+            <li class="header__menu__item"><a href="contatti.html">Contatti</a></li>
+        </ul>
+    </header>
+
+
+
+    <!--Footer-->
+
+
+
+
+
+
+
+    <!--script in js per il menu a tendina-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $(".header__icon-bar").click(function (e) {
+
+                $(".header__menu").toggleClass('is-open');
+                e.preventDefault();
+
+            });
+        });
+    </script>
+</body>
+
+</html>

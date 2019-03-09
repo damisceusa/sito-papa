@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="sito di Antonio Sceusa, architetto di Palermo con esperienza pluriventennale nel settore, specializzato in edifici pubblici e privati ">
+    <meta name="keywords" content="Architetto, Palermo, provincia di Palermo, Sicilia, tombe, case, scale, architettura">
+    <title>Architetto | Antonio Sceusa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="icon" href="C:\Users\damis\Desktop\icon.png" type="image/x-icon">
+    
+</head>
+<body>
+    <header class="header clearfix">
+        <a href="index.html" class="logo">Logo</a>
+        <a href="" class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <ul class="header__menu animate">
+            <li class="header__menu__item"><a href="index.html">Home</a></li>
+            <li class="header__menu__item"><a href="progetti.html">Progetti</a></li>
+            <li class="header__menu__item"><a href="contatti.html">Contatti</a></li>
+        </ul>
+    </header>
+
+    <!--cover del sito-->
+    <section class="cover">
+        <div class="cover__filter"></div>
+        <div class="cover__caption">
+            <div class="cover__caption__copy">
+                <h1>Guarda i miei Progetti</h1>
+                <h2>Clicca qui sotto per saperne di più</h2>
+                <a href="progetti.html" class="button">Progetti</a>
+            </div>
+        </div>
+    </section>
+
+    <!--tutte le info del sito-->
+
+    <!--Card1-->
+    <section class="card">
+        <div class="card__1">
+            <img src="https://source.unsplash.com/collection/614421/400x260" class="card1__image">
+            <div class="card1__testo">
+                <h3>Architettura</h3>
+                <p>Con una pluriventennale esperienza nel settore <br> 
+                   ho contribuito alla realizzazzione di diverse opere <br> 
+                   sia pubbliche che private. Nella realizzazzione di un progetto <br>
+                   cerco sempre di pormi nei panni del cliente, cercando il perfetto <br>
+                   connubbio fra <b>costi, benefici e bellezza</b></p>
+            </div>
+        </div>
+    </section>
+
+    <!--Card2-->
+    <section class="card">
+            <div class="card__2">
+                <img src="https://source.unsplash.com/collection/614421/400x260" class="card2__image">
+                <div class="card2__testo">
+                    <h3>Come lavoro</h3>
+                    <p>Mi piace stare a contatto con i miei clienti, <br> 
+                       cerco sempre di andare in cantiere per vedere <br> 
+                       lo svolgimento dei progetti, assicurandomi che <br>
+                       le richieste dei clienti vengano seguite alla lettera </p>
+                </div>
+            </div>
+        </section>
+
+    
+    <!--Footer-->
+    <footer class="footer">
+        <p>Antonio Sceusa -<a href="privacy_policy.html">Privacy Policy</a><a href="cookie.html">-Cookie Policy</a> 
+           <small>P.iva 654645654658</small> </p>        
+    </footer>
+    
+<!--script in js per il menu a tendina-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+
+    $(".header__icon-bar").click(function(e){
+
+      $(".header__menu").toggleClass('is-open');
+      e.preventDefault();
+
+    });
+  });
+</script>
+</body>
+</html>
